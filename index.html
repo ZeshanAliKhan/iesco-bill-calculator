@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IESCO Bill Calculator Pakistan - Residential Estimate, Tariff & Bill Guides</title>
+    <meta
+      name="description"
+      content="Estimate an IESCO electricity bill in Pakistan using the latest published residential tariff guide, protected or unprotected rules, GST, FC surcharge, optional FPA, and detailed support pages."
+    />
+    <meta
+      name="keywords"
+      content="iesco bill calculator, iesco bill calculator pakistan, iesco electricity bill estimate, protected consumer iesco, unprotected tariff iesco, iesco tariff guide, iesco duplicate bill, iesco reference number"
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://zeshan-iesco-bill-calculator.netlify.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="IESCO Bill Calculator Pakistan - Residential Estimate, Tariff & Bill Guides" />
+    <meta
+      property="og:description"
+      content="Estimate an IESCO bill using the latest published tariff guide with an itemized breakdown for GST, FC surcharge, FPA, and other adjustments."
+    />
+    <meta property="og:url" content="https://zeshan-iesco-bill-calculator.netlify.app/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="IESCO Bill Calculator Pakistan - Residential Estimate, Tariff & Bill Guides" />
+    <meta
+      name="twitter:description"
+      content="Estimate an IESCO bill using the latest published tariff guide and a transparent breakdown."
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "IESCO Bill Calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Any",
+        "url": "https://zeshan-iesco-bill-calculator.netlify.app/",
+        "description": "Residential IESCO bill estimator based on the latest published tariff guide, GST, FC surcharge, optional FPA, and manual adjustment fields.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "PKR"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does this calculator use real IESCO data?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The slab table is pulled from the public IESCO tariff guide page, the FPA list comes from the public IESCO FPA page, and GST plus FC surcharge are aligned with the official calculator behavior."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is the protected checkbox manual?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Protected status depends on the last six months of usage history, not only the units entered for the current month, so the user must confirm that condition."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is FPA optional?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "FPA changes by billing month, so the calculator keeps it editable instead of pretending one fixed number applies to every bill."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why can the real bill still differ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Real bills can include electricity duty, quarterly tariff adjustment, arrears, TV fee, and other line items tied to account history, so the final payable amount may differ from the estimate."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

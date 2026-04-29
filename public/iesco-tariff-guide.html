@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IESCO Tariff Guide Notes</title>
+    <meta
+      name="description"
+      content="A practical reading guide for the public IESCO tariff table and the residential slab rows used in the calculator."
+    />
+    <link rel="canonical" href="https://zeshan-iesco-bill-calculator.netlify.app/iesco-tariff-guide.html" />
+    <link rel="stylesheet" href="site-pages.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">IESCO Bill Calculator</a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="protected-vs-unprotected.html">Protected vs Unprotected</a>
+          <a href="fuel-price-adjustment-guide.html">FPA Guide</a>
+          <a href="iesco-bill-check-guide.html">Bill Check Guide</a>
+          <a href="iesco-duplicate-bill-guide.html">Duplicate Bill Guide</a>
+          <a href="iesco-reference-number-guide.html">Reference Number Guide</a>
+          <a href="iesco-areas-guide.html">IESCO Areas</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <section class="hero">
+        <h1>How to read the IESCO tariff guide</h1>
+        <p>The public tariff table is useful, but it is not written for fast budgeting. This page simplifies the parts that matter.</p>
+      </section>
+      <article class="content-card">
+        <h2>The residential rows that matter first</h2>
+        <p>
+          Most households only need the domestic A-1 residential section. Start by deciding whether your account is
+          protected or unprotected. Then find the slab row that matches the month&apos;s units. If you are using a normal
+          household connection, you do not need to scan the commercial or industrial rows just to estimate a residential bill.
+        </p>
+
+        <h2>Why the fixed-charge columns are confusing</h2>
+        <p>
+          The public table mixes multiple fixed-charge columns with explanatory notes about sanctioned load, minimum
+          monthly charges, and meter phase. Because that wording is not cleanly mapped to one consumer scenario, the
+          calculator keeps those extra charges visible instead of pretending the table is clearer than it is.
+        </p>
+
+        <h2>What the calculator trusts most</h2>
+        <p>
+          The site trusts the published variable residential slab rates first, then shows GST and FC surcharge separately,
+          and leaves the more volatile line items optional or manual. That approach is more defensible than copying one
+          opaque total from an older calculator endpoint.
+        </p>
+
+        <div class="link-grid">
+          <a class="link-card" href="index.html">
+            <strong>Use the current rates in the tool</strong>
+            <span>Go back to the homepage and estimate the bill with the latest locally stored official tariff rows.</span>
+          </a>
+          <a class="link-card" href="fuel-price-adjustment-guide.html">
+            <strong>Continue with FPA</strong>
+            <span>Open the FPA guide if the published tariff is not the only item shifting your final bill.</span>
+          </a>
+        </div>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-copy">
+        Residential tariff notes are kept separate so the homepage calculator can stay focused on the actual estimate workflow.
+      </div>
+    </footer>
+      <script src="site-pages.js"></script>
+  </body>
+</html>

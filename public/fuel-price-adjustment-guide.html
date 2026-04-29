@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IESCO FPA Guide</title>
+    <meta
+      name="description"
+      content="Understand how fuel price adjustment changes an IESCO bill and why the FPA value is kept optional in the calculator."
+    />
+    <link rel="canonical" href="https://zeshan-iesco-bill-calculator.netlify.app/fuel-price-adjustment-guide.html" />
+    <link rel="stylesheet" href="site-pages.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">IESCO Bill Calculator</a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="protected-vs-unprotected.html">Protected vs Unprotected</a>
+          <a href="iesco-tariff-guide.html">Tariff Guide</a>
+          <a href="iesco-bill-check-guide.html">Bill Check Guide</a>
+          <a href="iesco-duplicate-bill-guide.html">Duplicate Bill Guide</a>
+          <a href="iesco-reference-number-guide.html">Reference Number Guide</a>
+          <a href="iesco-areas-guide.html">IESCO Areas</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <section class="hero">
+        <h1>Fuel price adjustment in an IESCO bill</h1>
+        <p>The FPA row on an electricity bill can move up or down. That is why a static calculator should never hide it.</p>
+      </section>
+      <article class="content-card">
+        <h2>Why FPA is optional on the homepage tool</h2>
+        <p>
+          The public IESCO FPA page is updated by billing month. A user may be checking an old bill, a current month,
+          or a bill that already carries a delayed adjustment. Keeping the rate editable is more honest than locking one
+          fixed number into every estimate.
+        </p>
+        <h2>How to use it safely</h2>
+        <ol>
+          <li>Check whether your current bill already shows an FPA line.</li>
+          <li>Compare the bill month on the IESCO FPA list with your own bill month.</li>
+          <li>If they match, switch FPA on and keep the loaded rate.</li>
+          <li>If they do not match, enter the correct rate manually or leave it off.</li>
+        </ol>
+        <h2>Why many competitor pages get this wrong</h2>
+        <p>
+          Many Pakistan SERP pages hard-code a single FPA assumption or bury it under a generic “other charges” label.
+          That makes the page easier to publish, but it also makes the estimate weaker. A better tool should show the
+          FPA separately and let the user decide whether the current month actually uses it.
+        </p>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-copy">
+        FPA is handled as a separate decision because it changes by bill month and can move the final payable amount in either direction.
+      </div>
+    </footer>
+      <script src="site-pages.js"></script>
+  </body>
+</html>

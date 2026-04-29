@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protected vs Unprotected IESCO Billing</title>
+    <meta
+      name="description"
+      content="Understand the difference between protected and unprotected residential billing in the IESCO tariff structure and when each estimate should be used."
+    />
+    <link rel="canonical" href="https://zeshan-iesco-bill-calculator.netlify.app/protected-vs-unprotected.html" />
+    <link rel="stylesheet" href="site-pages.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">IESCO Bill Calculator</a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="iesco-tariff-guide.html">Tariff Guide</a>
+          <a href="fuel-price-adjustment-guide.html">FPA Guide</a>
+          <a href="iesco-bill-check-guide.html">Bill Check Guide</a>
+          <a href="iesco-duplicate-bill-guide.html">Duplicate Bill Guide</a>
+          <a href="iesco-reference-number-guide.html">Reference Number Guide</a>
+          <a href="iesco-areas-guide.html">IESCO Areas</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <section class="hero">
+        <h1>Protected vs unprotected IESCO billing</h1>
+        <p>Use this page to decide which estimate mode makes sense before you trust any calculator output.</p>
+      </section>
+      <article class="content-card">
+        <h2>When protected billing applies</h2>
+        <p>
+          A domestic connection can only be treated as protected when the account stayed at 200 units or less for the
+          previous six billing months. That history matters. Looking at the current month alone is not enough, which is
+          why a serious calculator should not auto-guess protected status just because the present bill shows low units.
+        </p>
+
+        <h2>Why the difference changes the bill fast</h2>
+        <p>
+          The protected estimate uses lower published residential rates for the first 200 units. The unprotected estimate
+          is harsher because the month&apos;s full unit total is billed against the slab that matches the final consumption.
+          That is why a jump from 200 to 201 units can materially change the payable amount.
+        </p>
+
+        <h2>What the main calculator does</h2>
+        <p>
+          The homepage calculator only applies the protected result when you actively confirm the six-month condition.
+          That is stricter than many thin affiliate calculators and closer to the actual billing question that matters.
+        </p>
+
+        <div class="link-grid">
+          <a class="link-card" href="index.html">
+            <strong>Run the calculator</strong>
+            <span>Go back to the homepage tool and compare both estimate modes with your actual bill details.</span>
+          </a>
+          <a class="link-card" href="iesco-tariff-guide.html">
+            <strong>See the slab table context</strong>
+            <span>Open the tariff guide notes if you want the published residential slab rows explained more clearly.</span>
+          </a>
+        </div>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-copy">
+        This page is part of the IESCO Bill Calculator cluster and is designed to support the main residential estimate tool.
+      </div>
+    </footer>
+      <script src="site-pages.js"></script>
+  </body>
+</html>

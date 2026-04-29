@@ -1,0 +1,173 @@
+{
+  "generatedAt": "2026-04-29T19:49:36.635Z",
+  "sources": {
+    "tariffGuideUrl": "https://iesco.com.pk/tariff-guide",
+    "billCalculatorUrl": "https://iesco.com.pk/bill-calculator",
+    "fpaRatesUrl": "https://iesco.com.pk/fpa-rates"
+  },
+  "tariff": {
+    "sro": "279 (I)/2026",
+    "residential": {
+      "protectedRegular": [
+        {
+          "code": "iii",
+          "label": "001 - 100 Units",
+          "fixedChargePerConsumer": null,
+          "fixedChargePerKw": 200,
+          "variableRate": 10.54
+        },
+        {
+          "code": "iv",
+          "label": "101 - 200 Units",
+          "fixedChargePerConsumer": null,
+          "fixedChargePerKw": 300,
+          "variableRate": 13.01
+        }
+      ],
+      "unprotected": [
+        {
+          "code": "v",
+          "label": "1- 100 Units",
+          "fixedChargePerConsumer": null,
+          "fixedChargePerKw": 275,
+          "variableRate": 22.44
+        },
+        {
+          "code": "vi",
+          "label": "101 - 200 Units",
+          "fixedChargePerConsumer": null,
+          "fixedChargePerKw": 300,
+          "variableRate": 28.91
+        },
+        {
+          "code": "vii",
+          "label": "201 - 300 Units",
+          "fixedChargePerConsumer": null,
+          "fixedChargePerKw": 350,
+          "variableRate": 33.1
+        },
+        {
+          "code": "viii",
+          "label": "301 - 400 Units",
+          "fixedChargePerConsumer": null,
+          "fixedChargePerKw": 400,
+          "variableRate": 36.46
+        },
+        {
+          "code": "ix",
+          "label": "401 - 500 Units",
+          "fixedChargePerConsumer": null,
+          "fixedChargePerKw": 500,
+          "variableRate": 38.95
+        },
+        {
+          "code": "x",
+          "label": "501 - 600 Units",
+          "fixedChargePerConsumer": null,
+          "fixedChargePerKw": 675,
+          "variableRate": 40.22
+        },
+        {
+          "code": "xi",
+          "label": "601 - 700 Units",
+          "fixedChargePerConsumer": null,
+          "fixedChargePerKw": 675,
+          "variableRate": 41.85
+        },
+        {
+          "code": "xii",
+          "label": "Above 700 Units",
+          "fixedChargePerConsumer": null,
+          "fixedChargePerKw": 675,
+          "variableRate": 47.2
+        }
+      ],
+      "tou": {
+        "fixedChargePerKw": 675,
+        "peakRate": 46.85,
+        "offPeakRate": 34.53
+      },
+      "prepaidRate": 42.12,
+      "minimumChargeSinglePhase": 75,
+      "minimumChargeThreePhase": 150
+    }
+  },
+  "derivedCharges": {
+    "gstRate": 0.18,
+    "fcSurchargeRate": 0.43,
+    "benchmarkSourceUnits": 100
+  },
+  "fpaRates": [
+    {
+      "billingMonth": "09-2025",
+      "fpaMonth": "07-2025",
+      "rate": -1.7856
+    },
+    {
+      "billingMonth": "08-2025",
+      "fpaMonth": "06-2025",
+      "rate": -0.7772
+    },
+    {
+      "billingMonth": "07-2025",
+      "fpaMonth": "05-2025",
+      "rate": -0.4952
+    },
+    {
+      "billingMonth": "06-2025",
+      "fpaMonth": "04-2025",
+      "rate": 0.9306
+    },
+    {
+      "billingMonth": "05-2025",
+      "fpaMonth": "03-2025",
+      "rate": -0.2883
+    },
+    {
+      "billingMonth": "04-2025",
+      "fpaMonth": "02-2025",
+      "rate": -0.4641
+    },
+    {
+      "billingMonth": "03-2025",
+      "fpaMonth": "01-2025",
+      "rate": -2.124
+    },
+    {
+      "billingMonth": "02-2025",
+      "fpaMonth": "12-2024",
+      "rate": -1.2283
+    },
+    {
+      "billingMonth": "01-2025",
+      "fpaMonth": "11-2024",
+      "rate": -0.7556
+    },
+    {
+      "billingMonth": "12-2024",
+      "fpaMonth": "10-2024",
+      "rate": -1.1445
+    },
+    {
+      "billingMonth": "11-2024",
+      "fpaMonth": "09-2024",
+      "rate": -1.2754
+    },
+    {
+      "billingMonth": "10-2024",
+      "fpaMonth": "08-2024",
+      "rate": -0.8555
+    },
+    {
+      "billingMonth": "09-2024",
+      "fpaMonth": "07-2024",
+      "rate": -0.3692
+    }
+  ],
+  "officialCalculatorBenchmark": {
+    "sampledAt": "2026-04-29T19:49:36.635Z",
+    "protected200UnitsTotal": 2864.9,
+    "unprotected250UnitsTotal": 9872,
+    "note": "Used fallback benchmark values verified manually from the official IESCO calculator on 2026-04-29 because the endpoint returned a session error during automated refresh: Error: Failed to benchmark IESCO calculator: 419"
+  }
+}

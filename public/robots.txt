@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zeshan-iesco-bill-calculator.netlify.app/sitemap.xml
