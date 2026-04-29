@@ -316,6 +316,11 @@ export default function App() {
             </div>
 
             <div className="hero-media-card hero-data-card">
+              <img
+                src="./iesco-homepage-hero.jpg"
+                alt="IESCO bill estimate guide visual with highlighted calculator and tariff text"
+                className="hero-visual"
+              />
               <div className="media-caption">
                 <strong>Current local source snapshot</strong>
                 <span>The estimator stores the latest parsed public source data locally so the site remains usable when the official pages are slow.</span>
